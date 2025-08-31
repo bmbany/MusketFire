@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{60af347a-9f08-46f6-8f76-43229e61c00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0a886d9b-a1eb-44df-8874-7f42f8a180d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Base">
+      <UniqueIdentifier>{81b7e431-7b5b-4af7-92d9-129d718ed961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{a403da54-1fc9-4af2-b8e6-3c6f544a0ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Headers">
+      <UniqueIdentifier>{a899e243-dec7-4e31-b142-a4560ecac08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Export">
+      <UniqueIdentifier>{ca2818ac-0ddd-4ed7-94c9-d81a97960667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager">
+      <UniqueIdentifier>{5ed4933e-fffa-4a6e-aaff-bafc42a64b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Game">
+      <UniqueIdentifier>{3c4e7720-1c04-4294-b602-2c57683030af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Interface">
+      <UniqueIdentifier>{941143b6-e8a0-40ca-8d4c-bd5d408c7087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{3a391255-06d8-43bd-893d-699bafd576f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Layer">
+      <UniqueIdentifier>{e05ceea1-a39a-4154-b72e-cc0dc4d5ec30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer">
+      <UniqueIdentifier>{23da075a-140d-4d0a-9565-4772aaf1b239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{04b7f2ed-4b42-491f-a36c-9c98a841105f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Sound">
+      <UniqueIdentifier>{1c937e67-f0af-436a-a375-956e41a67fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Texture">
+      <UniqueIdentifier>{2f84736f-81df-4e39-8cbb-46da26e822a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Time">
+      <UniqueIdentifier>{a0d1e577-7578-4312-a6ee-538c44de5f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Transform">
+      <UniqueIdentifier>{08b42fcc-0808-4ca4-a9dd-affe211416b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Collider">
+      <UniqueIdentifier>{bd29170d-a423-4d7b-9b16-98e6ed6cd9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\BitFlag">
+      <UniqueIdentifier>{3b7c04f9-4c80-4f48-a43f-f03854512f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Texture">
+      <UniqueIdentifier>{e3186157-8951-4e4a-9aad-e06cdfc1ad29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\00. WinApp">
+      <UniqueIdentifier>{6e54d827-1045-4fff-bbd6-12fd4eceefd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01. MainGame">
+      <UniqueIdentifier>{605b2dd3-a07f-4889-96ad-60105783c644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02. Scene">
+      <UniqueIdentifier>{6d8ebd01-4183-46f7-8949-f10e707ebe44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Timer">
+      <UniqueIdentifier>{824d32d8-e396-43e5-99a3-55afd5ded45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Graphic">
+      <UniqueIdentifier>{8e542087-8c18-4a45-a7cc-596de47c2388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Input">
+      <UniqueIdentifier>{f345465e-b54a-41ea-8b3b-43fc7782307e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\99. Headers">
+      <UniqueIdentifier>{a976bf56-af4f-47d3-8c80-604f18937842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Collision">
+      <UniqueIdentifier>{2c12b4e9-c137-4318-a21c-78a524b762ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Animation">
+      <UniqueIdentifier>{6c8bf5fd-3dd0-46ce-9496-c54070c8de4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject">
+      <UniqueIdentifier>{a3b456c6-f036-47e4-bce9-94cf1fae5fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{f88d6312-a6a9-4dbf-bc4e-818ca916c998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\SpriteRenderer">
+      <UniqueIdentifier>{e5b0c7db-34c4-49d7-b512-c3798be95deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04. Section">
+      <UniqueIdentifier>{92305049-076e-4e94-88f8-064939435ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI">
+      <UniqueIdentifier>{e0df71dc-cc5b-4fc7-a053-f1e5b8e5efc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04. Section\00%29 Combat">
+      <UniqueIdentifier>{07077c0c-ccea-48e7-839b-2c668e00cc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04. Section\01%29 Musket">
+      <UniqueIdentifier>{4320f69b-f50a-4fc5-a9d0-6d34c6837f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04. Section\02%29 Inventory">
+      <UniqueIdentifier>{974455a1-7ec8-418c-9e6a-413c704cbc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\BitmapRenderer">
+      <UniqueIdentifier>{d6ba20ed-dc93-4625-96cf-c4e299ddfcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\01%29 MiniGame">
+      <UniqueIdentifier>{a1b344f8-4388-4c8b-9d89-b1c1b62c297c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\02%29 FireStepText">
+      <UniqueIdentifier>{f02cc459-428c-4156-a825-7787baf3cf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button">
+      <UniqueIdentifier>{de5a5554-8709-436c-a139-a893aab9453e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button\Next">
+      <UniqueIdentifier>{488032be-3c0f-4044-8a9f-2f2d09dab7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button\Start">
+      <UniqueIdentifier>{ac1c4843-0c0b-444f-87e1-5340b110ce79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\03%29 Bubble">
+      <UniqueIdentifier>{b6092f5f-b040-43da-adb0-4911c52a48a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button\Continue">
+      <UniqueIdentifier>{cd6962a4-13f9-4bcf-936d-f542e99b7fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\01%29 Mouse">
+      <UniqueIdentifier>{4e17aa0c-dc85-4d46-a4e2-aca6dedf1be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\02%29 Musket">
+      <UniqueIdentifier>{cf2bc90e-7b68-4fde-b728-771f5c9b1820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\02%29 Musket\MusketCollider">
+      <UniqueIdentifier>{b6e3148f-d350-4e02-b1ef-670c8da0d288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\02%29 Musket\MusketCollider\FlashHole">
+      <UniqueIdentifier>{310aef1d-7903-4690-b8ed-85936efa3bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\02%29 Musket\MusketCollider\CockPin.h">
+      <UniqueIdentifier>{e340728b-8f18-410d-8580-006cdf131890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\02%29 Musket\MusketCollider\Rammer">
+      <UniqueIdentifier>{24baf785-c9c4-4715-8998-e8af8274c173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\02%29 Musket\Flintlock">
+      <UniqueIdentifier>{281ee8da-028e-4635-a8cd-bb272a5648ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items">
+      <UniqueIdentifier>{847f2280-9179-4591-9356-7b8f495ae113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\GunPowder">
+      <UniqueIdentifier>{8c50a2ed-7f01-4f6a-8e80-744c3c3d2588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Flint">
+      <UniqueIdentifier>{4a7e3966-ada9-481c-b8a6-50cdd5b8ef3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Ammunition">
+      <UniqueIdentifier>{a7e2fad9-dee5-4bec-86af-d98fc61af1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Ammunition\Normal">
+      <UniqueIdentifier>{ce765ae5-0ec2-4f24-8dbb-e3ba0c23dba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Ammunition\PaperCartridge">
+      <UniqueIdentifier>{aaf0c972-658d-4b6d-81e1-81129ab5dfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Letter">
+      <UniqueIdentifier>{2acc63ae-a2a9-4e5f-8e52-9e36e193cce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Letter\Letterhead">
+      <UniqueIdentifier>{1d1f5ae3-9610-4f54-bf3b-52a2fd70d3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\03%29 Items\Biscuit">
+      <UniqueIdentifier>{4f641f65-7204-4f53-873c-c0264470ae41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\04%29 Army">
+      <UniqueIdentifier>{5cc981a8-68ca-451c-b941-0bd1e79e3925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\04%29 Army\Infantry">
+      <UniqueIdentifier>{96b48596-cfbd-4710-9d4d-492605040ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\04%29 Army\Soldier">
+      <UniqueIdentifier>{b7a30316-3130-4d29-acad-50d24a2889b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\04%29 Army\EnemyAI">
+      <UniqueIdentifier>{13c22e9b-d510-41c1-9c3b-d123dd1bb274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\04%29 Army\Canon">
+      <UniqueIdentifier>{0e5d14ef-88fa-401a-804a-be47b2f57044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\04%29 Army\Scarecrow">
+      <UniqueIdentifier>{cdf0b590-8ec0-42e2-b091-d51d2c1ea4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\05%29 Effect">
+      <UniqueIdentifier>{73450636-469f-452b-af9e-ef0c30550603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\00%29 Player">
+      <UniqueIdentifier>{b79f9377-a8a7-43cd-a4db-77577ba256d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\04%29 TargetFrame">
+      <UniqueIdentifier>{8811a945-d88d-4fa7-98a3-c53508a9007d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button\Exit">
+      <UniqueIdentifier>{9229e8e4-148a-4b0f-9b83-ef6709fe0893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button\Sacrifice">
+      <UniqueIdentifier>{6c22d948-4b7f-48ba-9baf-fd59f92eb49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03. GameObject\05%29 Effect\MapEffect">
+      <UniqueIdentifier>{b5f08f74-a2c0-447a-a4c9-1c3d342e7305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04. Section\03%29 Frame">
+      <UniqueIdentifier>{113e5648-4339-4b77-95f7-b3d2fccde9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02. Scene\01%29 Title">
+      <UniqueIdentifier>{8eb538e8-586d-415b-9355-08cc76082e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02. Scene\01%29 Title\BackGround">
+      <UniqueIdentifier>{7006c92f-1915-4fd2-883b-4310670e6776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02. Scene\02%29 BattleField">
+      <UniqueIdentifier>{580eb6e9-092b-4009-a1ed-16650c48f1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02. Scene\02%29 BattleField\FrontGround">
+      <UniqueIdentifier>{b47bce97-df1f-458a-9437-4fa7ef7d8ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02. Scene\00%29 Intro">
+      <UniqueIdentifier>{0424370e-a455-478a-b25a-192e398db762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05. UI\00%29 Button\Controls">
+      <UniqueIdentifier>{332af58d-4aa5-4f44-ae24-d18c3f96a08f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Engine\Codes\BitFlag.cpp">
+      <Filter>Engine\Component\BitFlag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Collider.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\GameManager.cpp">
+      <Filter>Engine\Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\GraphicManager.cpp">
+      <Filter>Engine\Manager\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\InputManager.cpp">
+      <Filter>Engine\Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Layer.cpp">
+      <Filter>Engine\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Renderer.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\SoundManager.cpp">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Texture.cpp">
+      <Filter>Engine\Component\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\TextureManager.cpp">
+      <Filter>Engine\Manager\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\TimeManager.cpp">
+      <Filter>Engine\Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Timer.cpp">
+      <Filter>Engine\Component\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Transform.cpp">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WinApp.cpp">
+      <Filter>Client\00. WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainGame.cpp">
+      <Filter>Client\01. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\CollisionManager.cpp">
+      <Filter>Engine\Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Animation.cpp">
+      <Filter>Engine\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI.cpp">
+      <Filter>Client\05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\Camera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mouse.cpp">
+      <Filter>Client\03. GameObject\01%29 Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\GameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flintlock.cpp">
+      <Filter>Client\03. GameObject\02%29 Musket\Flintlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rammer.cpp">
+      <Filter>Client\03. GameObject\02%29 Musket\MusketCollider\Rammer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\SpriteRenderer.cpp">
+      <Filter>Engine\Component\SpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Item.cpp">
+      <Filter>Client\03. GameObject\03%29 Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Section.cpp">
+      <Filter>Client\04. Section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Inventory.cpp">
+      <Filter>Client\04. Section\02%29 Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Musket.cpp">
+      <Filter>Client\04. Section\01%29 Musket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Combat.cpp">
+      <Filter>Client\04. Section\00%29 Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect.cpp">
+      <Filter>Client\03. GameObject\05%29 Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GunPowder.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\GunPowder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ammunition.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Ammunition\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flint.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Flint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Fade.cpp">
+      <Filter>Client\03. GameObject\05%29 Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CockPin.cpp">
+      <Filter>Client\03. GameObject\02%29 Musket\MusketCollider\CockPin.h</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FlashHole.cpp">
+      <Filter>Client\03. GameObject\02%29 Musket\MusketCollider\FlashHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Codes\BitmapRenderer.cpp">
+      <Filter>Engine\Component\BitmapRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NextButton.cpp">
+      <Filter>Client\05. UI\00%29 Button\Next</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PaperBottom.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Ammunition\PaperCartridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PaperCartidge.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Ammunition\PaperCartridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Letter.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Letter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FireStepText.cpp">
+      <Filter>Client\05. UI\02%29 FireStepText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MiniGame.cpp">
+      <Filter>Client\05. UI\01%29 MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TextLoadSystem.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Letter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Letterhead.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Letter\Letterhead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Title.cpp">
+      <Filter>Client\02. Scene\01%29 Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Soldier.cpp">
+      <Filter>Client\03. GameObject\04%29 Army\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Infantry.cpp">
+      <Filter>Client\03. GameObject\04%29 Army\Infantry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Army.cpp">
+      <Filter>Client\03. GameObject\04%29 Army</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EnemyAI.cpp">
+      <Filter>Client\03. GameObject\04%29 Army\EnemyAI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Canon.cpp">
+      <Filter>Client\03. GameObject\04%29 Army\Canon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BackGround.cpp">
+      <Filter>Client\02. Scene\01%29 Title\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StartButton.cpp">
+      <Filter>Client\05. UI\00%29 Button\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bubble.cpp">
+      <Filter>Client\05. UI\03%29 Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Biscuit.cpp">
+      <Filter>Client\03. GameObject\03%29 Items\Biscuit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BattleField.cpp">
+      <Filter>Client\02. Scene\02%29 BattleField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ContinueButton.cpp">
+      <Filter>Client\05. UI\00%29 Button\Continue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scarecrow.cpp">
+      <Filter>Client\03. GameObject\04%29 Army\Scarecrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PlayerStatus.cpp">
+      <Filter>Client\03. GameObject\00%29 Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TargetFrame.cpp">
+      <Filter>Client\05. UI\04%29 TargetFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ExitButton.cpp">
+      <Filter>Client\05. UI\00%29 Button\Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SacrificeButton.cpp">
+      <Filter>Client\05. UI\00%29 Button\Sacrifice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MapEffect.cpp">
+      <Filter>Client\03. GameObject\05%29 Effect\MapEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Intro.cpp">
+      <Filter>Client\02. Scene\00%29 Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FrontGround.cpp">
+      <Filter>Client\02. Scene\02%29 BattleField\FrontGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stamp.cpp">
+      <Filter>Client\05. UI\00%29 Button\Continue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame.cpp">
+      <Filter>Client\04. Section\03%29 Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ControlsButton.cpp">
+      <Filter>Client\05. UI\00%29 Button\Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Engine\Headers\Base.h">
+      <Filter>Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\BitFlag.h">
+      <Filter>Engine\Component\BitFlag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Collider.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Engine_Define.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Engine_Function.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Engine_Macro.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Engine_Struct.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Engine_Typedef.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Export.h">
+      <Filter>Engine\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\GameManager.h">
+      <Filter>Engine\Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\GameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\GraphicManager.h">
+      <Filter>Engine\Manager\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\ICollisionEvent.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\InputManager.h">
+      <Filter>Engine\Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Layer.h">
+      <Filter>Engine\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Renderer.h">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\SoundManager.h">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Texture.h">
+      <Filter>Engine\Component\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\TextureManager.h">
+      <Filter>Engine\Manager\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\TimeManager.h">
+      <Filter>Engine\Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Timer.h">
+      <Filter>Engine\Component\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Transform.h">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WinApp.h">
+      <Filter>Client\00. WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_Define.h">
+      <Filter>Client\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>Client\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>Client\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\CollisionManager.h">
+      <Filter>Engine\Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Animation.h">
+      <Filter>Engine\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mouse.h">
+      <Filter>Client\03. GameObject\01%29 Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI.h">
+      <Filter>Client\05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Camera.h">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flintlock.h">
+      <Filter>Client\03. GameObject\02%29 Musket\Flintlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rammer.h">
+      <Filter>Client\03. GameObject\02%29 Musket\MusketCollider\Rammer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\SpriteRenderer.h">
+      <Filter>Engine\Component\SpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\Engine_Enum.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainGame.h">
+      <Filter>Client\01. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Item.h">
+      <Filter>Client\03. GameObject\03%29 Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Section.h">
+      <Filter>Client\04. Section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Inventory.h">
+      <Filter>Client\04. Section\02%29 Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Musket.h">
+      <Filter>Client\04. Section\01%29 Musket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Combat.h">
+      <Filter>Client\04. Section\00%29 Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect.h">
+      <Filter>Client\03. GameObject\05%29 Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GunPowder.h">
+      <Filter>Client\03. GameObject\03%29 Items\GunPowder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ammunition.h">
+      <Filter>Client\03. GameObject\03%29 Items\Ammunition\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Fade.h">
+      <Filter>Client\03. GameObject\05%29 Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MusketObject.h">
+      <Filter>Client\03. GameObject\02%29 Musket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flint.h">
+      <Filter>Client\03. GameObject\03%29 Items\Flint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FlashHole.h">
+      <Filter>Client\03. GameObject\02%29 Musket\MusketCollider\FlashHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CockPin.h">
+      <Filter>Client\03. GameObject\02%29 Musket\MusketCollider\CockPin.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Headers\BitmapRenderer.h">
+      <Filter>Engine\Component\BitmapRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NextButton.h">
+      <Filter>Client\05. UI\00%29 Button\Next</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PaperBottom.h">
+      <Filter>Client\03. GameObject\03%29 Items\Ammunition\PaperCartridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PaperCartidge.h">
+      <Filter>Client\03. GameObject\03%29 Items\Ammunition\PaperCartridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Letter.h">
+      <Filter>Client\03. GameObject\03%29 Items\Letter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TextLoadSystem.h">
+      <Filter>Client\03. GameObject\03%29 Items\Letter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Letterhead.h">
+      <Filter>Client\03. GameObject\03%29 Items\Letter\Letterhead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FireStepText.h">
+      <Filter>Client\05. UI\02%29 FireStepText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MiniGame.h">
+      <Filter>Client\05. UI\01%29 MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Soldier.h">
+      <Filter>Client\03. GameObject\04%29 Army\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Infantry.h">
+      <Filter>Client\03. GameObject\04%29 Army\Infantry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Army.h">
+      <Filter>Client\03. GameObject\04%29 Army</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\EnemyAI.h">
+      <Filter>Client\03. GameObject\04%29 Army\EnemyAI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Canon.h">
+      <Filter>Client\03. GameObject\04%29 Army\Canon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BackGround.h">
+      <Filter>Client\02. Scene\01%29 Title\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\StartButton.h">
+      <Filter>Client\05. UI\00%29 Button\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bubble.h">
+      <Filter>Client\05. UI\03%29 Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Biscuit.h">
+      <Filter>Client\03. GameObject\03%29 Items\Biscuit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BattleField.h">
+      <Filter>Client\02. Scene\02%29 BattleField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ContinueButton.h">
+      <Filter>Client\05. UI\00%29 Button\Continue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scarecrow.h">
+      <Filter>Client\03. GameObject\04%29 Army\Scarecrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PlayerStatus.h">
+      <Filter>Client\03. GameObject\00%29 Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TargetFrame.h">
+      <Filter>Client\05. UI\04%29 TargetFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ExitButton.h">
+      <Filter>Client\05. UI\00%29 Button\Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SacrificeButton.h">
+      <Filter>Client\05. UI\00%29 Button\Sacrifice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MapEffect.h">
+      <Filter>Client\03. GameObject\05%29 Effect\MapEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Intro.h">
+      <Filter>Client\02. Scene\00%29 Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Title.h">
+      <Filter>Client\02. Scene\01%29 Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FrontGround.h">
+      <Filter>Client\02. Scene\02%29 BattleField\FrontGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stamp.h">
+      <Filter>Client\05. UI\00%29 Button\Continue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Frame.h">
+      <Filter>Client\04. Section\03%29 Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ControlsButton.h">
+      <Filter>Client\05. UI\00%29 Button\Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Engine\Codes\Export.inl">
+      <Filter>Engine\Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>
